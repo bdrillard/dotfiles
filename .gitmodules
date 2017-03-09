@@ -1,0 +1,9 @@
+[submodule "vim/bundle/rainbowParens"]
+	path = vim/bundle/rainbowParens
+	url = git@github.com:kien/rainbow_parentheses.vim.git
+[submodule "vim/bundle/vimClojureStatic"]
+	path = vim/bundle/vimClojureStatic
+	url = git@github.com:guns/vim-clojure-static.git
+[submodule "vim/bundle/vimFireplace"]
+	path = vim/bundle/vimFireplace
+	url = git@github.com:tpope/vim-fireplace.git
