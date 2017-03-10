@@ -10,3 +10,12 @@
 [submodule "vim/bundle/colorschemes"]
 	path = vim/bundle/colorschemes
 	url = https://github.com/flazz/vim-colorschemes.git
+[submodule "vim/bundle/vim-salve"]
+	path = vim/bundle/vim-salve
+	url = git@github.com:tpope/vim-salve.git
+[submodule "vim/bundle/vimProjectionist"]
+	path = vim/bundle/vimProjectionist
+	url = https://github.com/tpope/vim-projectionist.git
+[submodule "vim/bundle/vim-dispatch"]
+	path = vim/bundle/vim-dispatch
+	url = https://github.com/tpope/vim-dispatch.git
