@@ -7,3 +7,6 @@
 [submodule "vim/bundle/vimFireplace"]
 	path = vim/bundle/vimFireplace
 	url = git@github.com:tpope/vim-fireplace.git
+[submodule "vim/bundle/colorschemes"]
+	path = vim/bundle/colorschemes
+	url = https://github.com/flazz/vim-colorschemes.git

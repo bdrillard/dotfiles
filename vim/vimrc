@@ -1,7 +1,7 @@
 """ Vim settings
 
 " Pathogen
-call pathogen#incubate()
+call pathogen#infect()
 call pathogen#helptags()
 
 " No vi compatibility
@@ -30,8 +30,9 @@ let mapleader = ","
 set modelines=0
 
 " Relative line numbers
-au FocusLost * :set number
-au FocusGained * :set relativenumber
+set relativenumber
+autocmd InsertEnter * :set number
+autocmd InsertLeave * :set relativenumber
 
 " Set line numbering
 set ruler
