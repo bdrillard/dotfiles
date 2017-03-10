@@ -10,15 +10,15 @@ set nocompatible
 " Help force plugins to load correctly when turned back on below
 filetype off
 
+" Syntax highlighting
+syntax on
+
 """ Load pathogen plugins
 " Rainbow parens
 au VimEnter * RainbowParenthesesActivate
 au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
 au Syntax * RainbowParenthesesLoadBraces
-
-" Syntax highlighting
-syntax on
 
 " For proper plugin loading
 filetype plugin indent on
