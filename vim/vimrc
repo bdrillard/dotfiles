@@ -34,6 +34,9 @@ set relativenumber
 autocmd InsertEnter * :set number
 autocmd InsertLeave * :set relativenumber
 
+" Set backspacing
+set backspace=indent,eol,start
+
 " Set line numbering
 set ruler
 
