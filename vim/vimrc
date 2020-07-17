@@ -18,6 +18,9 @@ autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
 """ Load pathogen plugins
+" Clj-Kondo
+let g:ale_linters = {'clojure': ['clj-kondo']}
+
 " Rainbow parens
 let g:rbpt_colorpairs = [
     \ ['brown',       'RoyalBlue3'],
